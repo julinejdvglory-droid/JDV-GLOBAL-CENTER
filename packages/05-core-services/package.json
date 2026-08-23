@@ -1,0 +1,19 @@
+{
+  "name": "@jdv/core-services",
+  "version": "1.0.0",
+  "description": "JDV Core Services - Search, Map, Message, Notification",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "dependencies": {
+    "@jdv/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
