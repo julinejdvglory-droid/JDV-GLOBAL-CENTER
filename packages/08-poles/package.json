@@ -1,0 +1,24 @@
+{
+  "name": "@jdv/poles",
+  "version": "1.0.0",
+  "description": "JDV Poles - 17 Business Domains",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "dependencies": {
+    "@jdv/shared": "workspace:*",
+    "@jdv/account": "workspace:*",
+    "@jdv/kyc": "workspace:*",
+    "@jdv/pay": "workspace:*",
+    "@jdv/ai": "workspace:*",
+    "@jdv/core-services": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
