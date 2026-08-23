@@ -1,0 +1,20 @@
+{
+  "name": "@jdv/design-system",
+  "version": "1.0.0",
+  "description": "JDV Design System - Shared Components & Tokens",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "tsc",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@storybook/react": "^7.0.0"
+  }
+}
