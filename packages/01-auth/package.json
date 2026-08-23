@@ -1,0 +1,22 @@
+{
+  "name": "@jdv/auth",
+  "version": "1.0.0",
+  "description": "JDV Auth Service - Authentication, JWT, OTP, Biometric",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "dependencies": {
+    "@jdv/shared": "workspace:*",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.0"
+  }
+}
