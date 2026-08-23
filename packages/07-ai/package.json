@@ -1,0 +1,20 @@
+{
+  "name": "@jdv/ai",
+  "version": "1.0.0",
+  "description": "JDV AI - Transversal AI Service",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "dependencies": {
+    "@jdv/shared": "workspace:*",
+    "@jdv/account": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
