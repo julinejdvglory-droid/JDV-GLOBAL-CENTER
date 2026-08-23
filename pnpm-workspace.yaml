@@ -1,0 +1,4 @@
+workspaces:
+  - 'packages/*'
+
+prefer-workspace-root: false
